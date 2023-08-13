@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: blueviolet;
+    width: 100%;
+    }
+    header ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    header ul li{
+        margin: 15px;
+    }
+    
+    a{text-decoration: none !important;
+    color: rgb(156, 19, 47) !important;}
+
+    header img{
+        border-radius: 50%;
+    }
+    img{
+        width: 200px;
+        height: 200px;;
+    }
+    h1{
+        justify-content:center;
+        font-size: 25px;
+        color: rgb(31, 31, 199) !important;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+    h2{
+        font-size: 24px;
+        color: rgb(92, 53, 128) !important;
+        font-family: 'Times New Roman', Times, serif;
+    }  
+    h3{
+        font-size: 24px;
+        color: #63BCCC !important;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction:column;
+        align-content: center;
+       justify-content: center;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        background-color: rgb(119, 103, 103);
+    }
+    .caja > div {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items:center;
+        font-size: 25px;
+        font-family: 'EB Garamond', serif;
+        }
+    .caja img{
+     border-radius: 50%;
+    }
+    
+    .enlace{
+        background-color: rgb(218, 44, 218);
+    }
+    .contenedor2{
+        background-color: rgb(102, 46, 155);
+    }
+        
+        
